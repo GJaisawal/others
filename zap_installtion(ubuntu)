@@ -1,0 +1,14 @@
+1. Open below link,
+              https://www.zaproxy.org/download/
+
+2. Download Linux Installer 
+
+3. Go to that download file directory and open terminal
+
+4. Run Below command to make installer executable
+
+              chmod u+x ZAP_2_14_0_unix.sh
+
+              sudo ./ZAP_2_14_0_unix.sh
+
+5. complate and finish the installation dialog box.
