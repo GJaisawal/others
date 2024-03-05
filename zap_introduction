@@ -1,0 +1,49 @@
+OWASP ZAP (Zed Attack Proxy) : 
+
+    • OWASP ZAP (Zed Attack Proxy) is a security auditing toolkit that can recognize and mitigate vulnerabilities in web applications.
+    • It can perform multiple security functions, such as passively scanning web requests
+    • It is a DAST tool that detects security flaws while running the application and has no access to the source code.
+
+
+DAST (Dynamic Application Security Testing)  : 
+
+    • DAST tools are automated security testing tools used to detect potential vulnerabilities in running web applications.
+
+SAST (Static Application Security Testing)  :
+
+    • SAST tools are automated security testing tools used to detect potential vulnerabilities in the source code of applications before they become operational.
+
+
+Intercept Proxy : 
+    • It allows the user to intercept requests and responses made by their browser.
+    • Intercepting requests/responses can be used to debug applications, identify security vulnerabilities, or perform manual testing.
+    • Simply put, it acts as a man in the middle between the user's browser and the target web application, allowing users to inspect, modify and replay HTTP requests
+
+Scan Policy Control : 
+    • It allows users to create scan policies according to their requirements for each application.
+    • When creating a scan policy, you must consider the scanner machine's bandwidth, processing capabilities, and the type of scanner.
+    • Once you create the scan policy, it can be saved as a template, allowing you to reuse it in the future easily.
+
+Active and Passive Scan : 
+    • An active scan is a vulnerability assessment that probes a network for potential security threats.
+    • It involves sending requests or probes to the target system, analyzing the responses, and looking for vulnerabilities.
+    • A passive scan is a type of vulnerability check that does not interact with the target system in any way.
+    • Instead, it passively monitors network traffic for potential security threats.
+    • It does not send out any requests or probes but instead looks for suspicious activity, such as malicious payloads or abnormal user behavior.
+
+Port Scan :
+    • It can perform port scans against targets to identify open ports that are vulnerable to attack.
+    • It is a type of security testing that scans the network ports of a system to determine if they are open or closed.
+    • You can use it to pinpoint any services or applications running on the system and can help detect any weaknesses in them.
+
+Extensive API
+    • It allows users to programmatically interact with the underlying engine of the tool, allowing them to automate aspects of application testing and integrate it with other tools.
+    • It helps security researchers and developers write scripts to extend the tool's functionality beyond its existing capabilities.
+
+ZAP Fuzzer
+    • You can create custom payloads to send to a tested application, using built-in payloads as a starting point.
+    • It has four modes: safe, protected, standard, and attack.
+    • Each mode offers different features and capabilities to test various applications and attack vectors.
+    • For example, attack mode permits more flexible testing by allowing users to specify the type of application and operating system they would like to attack.
+
+
